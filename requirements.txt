@@ -1,9 +1,10 @@
 Flask==3.0.0
 Flask-SQLAlchemy==3.0.0
 Flask-WTF==1.1.1
-Flask-Mail==1.0.0
+Flask-Mail==0.9.1       # Updated version
 WTForms==3.0.0
 email-validator==2.0.0
 twilio==8.0.0
 Werkzeug==3.0.0
 reportlab==4.0.0
+gunicorn==21.2.0        # Added gunicorn for deployment
