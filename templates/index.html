@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="flex flex-col md:flex-row items-center justify-center text-center md:text-left px-8 py-20 bg-gradient-to-br from-blue-50 to-blue-100">
+  
+  <div class="md:w-1/2 animate__animated animate__fadeInLeft">
+    <h1 class="text-5xl font-bold text-[#4B69A9] mb-4">Welcome to Student Admission Portal</h1>
+    <p class="text-gray-700 text-lg mb-6">Register online, get instant notifications, and track your admission status — all in one place.</p>
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+      <a href="/register" class="bg-[#4B69A9] hover:bg-[#3a558c] text-white font-semibold px-6 py-3 rounded-lg shadow-md transition transform hover:-translate-y-1">
+        🚀 Register Now
+      </a>
+      <a href="/admin/login" class="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg shadow-md transition transform hover:-translate-y-1">
+        🔐 Admin Login
+      </a>
+    </div>
+  </div>
+
+  <div class="md:w-1/2 mt-10 md:mt-0 animate__animated animate__fadeInRight">
+    <img src="https://cdn-icons-png.flaticon.com/512/3142/3142116.png" alt="Students" class="w-3/4 mx-auto">
+  </div>
+
+</section>
+{% endblock %}
